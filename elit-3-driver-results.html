@@ -1,0 +1,302 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/animation.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/w3.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" href="./assets/maintmaster.png">
+</head>
+
+<body style="background-image: linear-gradient(#00b1b1, #39d7d7); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+<head>
+	<title>
+		MaintMaster |
+			driver MaintMaster Elit
+	</title>
+</head>
+
+<div class="w3-top">
+	<div class="w3-bar w3-black" style="text-align:center;">
+		<div class="logo">
+			<a href="/index.html">
+				<img src="./assets/maintmaster.png">
+			</a>
+		</div>
+		<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large" style="font-size:3em;"
+			onclick="openNav()">&#9776;</a>
+
+
+		<h3 class="w3-hide-large navTitle bold" style="display:block;">
+			driver - MaintMaster Elit
+			
+		</h3>
+
+
+		<div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+			<button class="w3-button">Driver Standings</button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4 w3-hide-small w3-hide-medium">
+				<a href="./elit-driver-standings.html" class="w3-bar-item w3-button active">MaintMaster Elit</a>
+				<a href="./a-driver-standings.html" class="w3-bar-item w3-button ">MaintMaster A</a>
+				<a href="./b-driver-standings.html" class="w3-bar-item w3-button ">MaintMaster B</a>
+				<a href="./c-driver-standings.html" class="w3-bar-item w3-button ">MaintMaster C</a>
+				<a href="./overall-driver-standings.html" class="w3-bar-item w3-button ">overall</a>
+			</div>
+		</div>
+
+		<div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+			<button class="w3-button">Team Standings</button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4 w3-hide-small w3-hide-medium">
+				<a href="./elit-team-standings.html" class="w3-bar-item w3-button ">MaintMaster Elit</a>
+				<a href="./a-team-standings.html" class="w3-bar-item w3-button ">MaintMaster A</a>
+				<a href="./b-team-standings.html" class="w3-bar-item w3-button ">MaintMaster B</a>
+				<a href="./c-team-standings.html" class="w3-bar-item w3-button ">MaintMaster C</a>
+				<a href="./overall-team-standings.html" class="w3-bar-item w3-button ">overall</a>
+			</div>
+		</div>
+
+
+
+	</div>
+
+	<div id="mobileNav" class="w3-bar-block w3-black w3-hide w3-hide-large" style="overflow-y:scroll;max-height:95vh;">
+		<a href="./elit-driver-standings.html" class="w3-bar-item w3-button active">Driver Standings - MaintMaster Elit</a>
+		<a href="./a-driver-standings.html" class="w3-bar-item w3-button ">Driver Standings - MaintMaster A</a>
+		<a href="./b-driver-standings.html" class="w3-bar-item w3-button ">Driver Standings - MaintMaster B</a>
+		<a href="./c-driver-standings.html" class="w3-bar-item w3-button ">Driver Standings - MaintMaster C</a>
+		<a href="./overall-driver-standings.html" class="w3-bar-item w3-button ">Driver Standings - overall</a>
+		<a href="./elit-team-standings.html" class="w3-bar-item w3-button ">Team Standings - MaintMaster Elit</a>
+		<a href="./a-team-standings.html" class="w3-bar-item w3-button ">Team Standings - MaintMaster A</a>
+		<a href="./b-team-standings.html" class="w3-bar-item w3-button ">Team Standings - MaintMaster B</a>
+		<a href="./c-team-standings.html" class="w3-bar-item w3-button ">Team Standings - MaintMaster C</a>
+		<a href="./overall-team-standings.html" class="w3-bar-item w3-button ">Team Standings - overall</a>
+	</div>
+
+</div>
+
+<div id="container">
+    <div id="flexContainer">
+        <div class="flexBox">
+            <div style="margin-bottom: 1em;" class="w3-hide-medium w3-hide-small">
+                <div class="logo" style="display:flex;">
+                    <img src="./assets/maintmaster.png" />
+                    <h2 style="margin-left:1em;">MaintMaster Elit Greece Driver Results</h2>
+                </div>
+            </div>
+
+            <table id="tableDrivers">
+                <thead>
+                <tr>
+                    <th>Pos</th>
+                    <th>Nat</th>
+                    <th>Driver</th>
+                        <th>Car</th>
+                    <td>PS</td>
+                    <td>Diff</td>
+                    <td>Total</td>
+                    <td>Diff</td>
+                        <td>PS Points</td>
+                    <td>Points</td>
+                    <td>Total Points</td>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Dennis Hernehult</td>
+                                <td>
+                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
+                                </td>
+                        <td>03:13.140</td>
+                        <td>+00:00:03.294</td>
+                        <td>38:11.978</td>
+                        <td>--</td>
+                            <td>4</td>
+                        <td>15</td>
+                        <td class="bold">19</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Simon Sandegren</td>
+                                <td>
+                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
+                                </td>
+                        <td>03:09.846</td>
+                        <td>--</td>
+                        <td>38:30.971</td>
+                        <td>+00:00:18.993</td>
+                            <td>5</td>
+                        <td>13</td>
+                        <td class="bold">18</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Tommie Lindberg</td>
+                                <td>
+                                    <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
+                                </td>
+                        <td>03:13.531</td>
+                        <td>+00:00:03.685</td>
+                        <td>39:37.000</td>
+                        <td>+00:01:25.022</td>
+                            <td>3</td>
+                        <td>11</td>
+                        <td class="bold">14</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Johan Olsson</td>
+                                <td>
+                                    <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
+                                </td>
+                        <td>03:21.854</td>
+                        <td>+00:00:12.008</td>
+                        <td>39:59.673</td>
+                        <td>+00:01:47.695</td>
+                            <td>2</td>
+                        <td>9</td>
+                        <td class="bold">11</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Henrik Andersson</td>
+                                <td>
+                                    <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
+                                </td>
+                        <td>03:45.470</td>
+                        <td>+00:00:35.624</td>
+                        <td>42:06.947</td>
+                        <td>+00:03:54.969</td>
+                            <td>1</td>
+                        <td>7</td>
+                        <td class="bold">8</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Tomas Nordins</td>
+                                <td>
+                                    <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
+                                </td>
+                        <td>03:56.596</td>
+                        <td>+00:00:46.750</td>
+                        <td>42:08.622</td>
+                        <td>+00:03:56.644</td>
+                            <td></td>
+                        <td>6</td>
+                        <td class="bold">6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Anders Olsson</td>
+                                <td>
+                                    <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
+                                </td>
+                        <td>04:32.649</td>
+                        <td>+00:01:22.803</td>
+                        <td>45:02.538</td>
+                        <td>+00:06:50.560</td>
+                            <td></td>
+                        <td>5</td>
+                        <td class="bold">5</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Thomas Billman</td>
+                                <td>
+                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
+                                </td>
+                        <td>15:00.000</td>
+                        <td>+00:11:50.154</td>
+                        <td>01:02:47.452</td>
+                        <td>+00:24:35.474</td>
+                            <td></td>
+                        <td></td>
+                        <td class="bold">DNF</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Oskar Norlin</td>
+                                <td>
+                                    <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
+                                </td>
+                        <td>15:00.000</td>
+                        <td>+00:11:50.154</td>
+                        <td>02:01:59.271</td>
+                        <td>+01:23:47.293</td>
+                            <td></td>
+                        <td></td>
+                        <td class="bold">DNF</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Jimmy Norr Kambrink</td>
+                                <td>
+                                    <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
+                                </td>
+                        <td>15:00:00.000</td>
+                        <td>N/A</td>
+                        <td>23:59:59.000</td>
+                        <td>N/A</td>
+                            <td></td>
+                        <td></td>
+                        <td class="bold">DNS</td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <div style="margin:0 auto; text-align:center;">
+                <p>last updated at: 2022-08-25T12:01:25Z</p>
+            </div>
+                <div style="margin:0 auto; text-align:center;">
+                    <p>*120 second penalty applied for incorrect car choice</p>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!--
+    DROPDOWN
+-->
+<script>
+    function openNav() {
+        var x = document.getElementById("mobileNav");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+</body>
+
+</html>
