@@ -29,7 +29,7 @@
 
 		<h3 class="w3-hide-large navTitle bold" style="display:block;">
 			team - C
-			
+			<br><span id="countdown"></span>
 		</h3>
 
 
@@ -57,6 +57,13 @@
 
 
 
+
+		<div class="w3-bar-item w3-right w3-hide-small w3-hide-medium">
+			<div class="logo">
+				<img src="./assets/country-flags/pol.png" style="max-height: 0.9em;border-radius: 0.3em;"/>
+			</div>
+			<span id="countdown2"></span>
+		</div>
 	</div>
 
 	<div id="mobileNav" class="w3-bar-block w3-black w3-hide w3-hide-large" style="overflow-y:scroll;max-height:95vh;">
@@ -91,8 +98,44 @@
 			<a href="./c-5-driver-results.html">
 				<img src="./assets/country-flags/scot.png" />
 			</a>
+			<a href="./c-6-driver-results.html">
+				<img src="./assets/country-flags/pol.png" />
+			</a>
 	</div>
 </div>
+<script>
+	// Set the date we're counting down to
+	var countDownDate = new Date("2022-09-04T21:59:00Z").getTime();
+
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+
+	// Get today's date and time
+	var now = new Date().getTime();
+
+	// Find the distance between now and the count down date
+	var distance = countDownDate - now;
+
+	// Time calculations for days, hours, minutes and seconds
+	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	// Output the result in an element with id="demo"
+	document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+	+ minutes + "m " + seconds + "s ";
+	document.getElementById("countdown2").innerHTML = days + "d " + hours + "h "
+	+ minutes + "m " + seconds + "s ";
+
+	// If the count down is over, write some text
+	if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("countdown").innerHTML = "Event Ended";
+		document.getElementById("countdown2").innerHTML = "Event Ended";
+	}
+	}, 1000);
+</script>
 
     <div id="container">
         <div id="flexContainer">
@@ -116,6 +159,7 @@
                             <th><img src="./assets/country-flags/grc.png"  alt="grc"/></th>
                             <th><img src="./assets/country-flags/deu.png"  alt="deu"/></th>
                             <th><img src="./assets/country-flags/scot.png"  alt="scot"/></th>
+                            <th><img src="./assets/country-flags/pol.png"  alt="pol"/></th>
                             <th>Points</th>
                         </tr>
                     </thead>
@@ -152,6 +196,10 @@
                                 57
                             </td>
                             
+                            <td>
+                                
+                            </td>
+                            
                             <td class="bold">271</td>
                         </tr>
                         
@@ -171,7 +219,7 @@
                             </td>
                             
                             <td>
-                                38
+                                40
                             </td>
                             
                             <td>
@@ -186,7 +234,11 @@
                                 25
                             </td>
                             
-                            <td class="bold">215</td>
+                            <td>
+                                
+                            </td>
+                            
+                            <td class="bold">217</td>
                         </tr>
                         
                         <tr>
@@ -205,7 +257,7 @@
                             </td>
                             
                             <td>
-                                15
+                                19
                             </td>
                             
                             <td>
@@ -220,7 +272,11 @@
                                 37
                             </td>
                             
-                            <td class="bold">147</td>
+                            <td>
+                                
+                            </td>
+                            
+                            <td class="bold">151</td>
                         </tr>
                         
                         <tr>
@@ -239,11 +295,11 @@
                             </td>
                             
                             <td>
-                                5
+                                8
                             </td>
                             
                             <td>
-                                13
+                                15
                             </td>
                             
                             <td>
@@ -254,7 +310,11 @@
                                 8
                             </td>
                             
-                            <td class="bold">90</td>
+                            <td>
+                                
+                            </td>
+                            
+                            <td class="bold">95</td>
                         </tr>
                         
                         <tr>
@@ -286,6 +346,10 @@
                             
                             <td>
                                 0
+                            </td>
+                            
+                            <td>
+                                
                             </td>
                             
                             <td class="bold">28</td>
@@ -322,6 +386,10 @@
                                 0
                             </td>
                             
+                            <td>
+                                
+                            </td>
+                            
                             <td class="bold">0</td>
                         </tr>
                         
@@ -329,7 +397,7 @@
 
                 </table>
                 <div style="margin:0 auto; text-align:center;">
-                    <p>last updated at: 2022-08-31T14:56:59Z</p>
+                    <p>last updated at: 2022-08-31T19:59:45Z</p>
                 </div>
             </div>
         </div>
