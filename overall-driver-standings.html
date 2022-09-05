@@ -29,7 +29,7 @@
 
 		<h3 class="w3-hide-large navTitle bold" style="display:block;">
 			driver - overall
-			<br><span id="countdown"></span>
+			
 		</h3>
 
 
@@ -57,13 +57,6 @@
 
 
 
-
-		<div class="w3-bar-item w3-right w3-hide-small w3-hide-medium">
-			<div class="logo">
-				<img src="./assets/country-flags/pol.png" style="max-height: 0.9em;border-radius: 0.3em;"/>
-			</div>
-			<span id="countdown2"></span>
-		</div>
 	</div>
 
 	<div id="mobileNav" class="w3-bar-block w3-black w3-hide w3-hide-large" style="overflow-y:scroll;max-height:95vh;">
@@ -103,39 +96,6 @@
 			</a>
 	</div>
 </div>
-<script>
-	// Set the date we're counting down to
-	var countDownDate = new Date("2022-09-04T21:59:00Z").getTime();
-
-	// Update the count down every 1 second
-	var x = setInterval(function() {
-
-	// Get today's date and time
-	var now = new Date().getTime();
-
-	// Find the distance between now and the count down date
-	var distance = countDownDate - now;
-
-	// Time calculations for days, hours, minutes and seconds
-	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-	// Output the result in an element with id="demo"
-	document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-	document.getElementById("countdown2").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-
-	// If the count down is over, write some text
-	if (distance < 0) {
-		clearInterval(x);
-		document.getElementById("countdown").innerHTML = "Event Ended";
-		document.getElementById("countdown2").innerHTML = "Event Ended";
-	}
-	}, 1000);
-</script>
 
     <div id="container">
         <div id="flexContainer">
@@ -930,7 +890,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">112</td>
@@ -1114,7 +1074,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNF
                             </td>
                             
                             <td class="bold">109</td>
@@ -1160,7 +1120,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">107</td>
@@ -1673,8 +1633,54 @@
                         <tr style="background-color: ">
                             <td>33</td>
                             <td>
+                                <span class="negative"><i
+                                        class="arrow down"></i>&nbsp;-1</span>
+                            </td>
+                            <td>
+                                <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                            </td>
+                            <td class="text-left bold">Henrik Andersson</td>
+                                <td>Elit</td>
+                                    <td class="text-left">Wermland Rally Team</td>
+                                    <td>
+                                        <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
+                                    </td>
+                            
+                            <td>
+                                5
+                            </td>
+                            
+                            <td>
+                                16
+                            </td>
+                            
+                            <td>
+                                16
+                            </td>
+                            
+                            <td>
+                                8
+                            </td>
+                            
+                            <td>
+                                10
+                            </td>
+                            
+                            <td>
+                                15
+                            </td>
+                            
+                            <td>
+                                6
+                            </td>
+                            
+                            <td class="bold">76</td>
+                        </tr>
+                        <tr style="background-color: ">
+                            <td>34</td>
+                            <td>
                                 <span class="positive"><i
-                                        class="arrow up"></i>&nbsp;7</span>
+                                        class="arrow up"></i>&nbsp;6</span>
                             </td>
                             <td>
                                 <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
@@ -1717,10 +1723,10 @@
                             <td class="bold">75</td>
                         </tr>
                         <tr style="background-color: ">
-                            <td>34</td>
+                            <td>35</td>
                             <td>
                                 <span class="positive"><i
-                                        class="arrow up"></i>&nbsp;3</span>
+                                        class="arrow up"></i>&nbsp;2</span>
                             </td>
                             <td>
                                 <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
@@ -1763,10 +1769,10 @@
                             <td class="bold">73</td>
                         </tr>
                         <tr style="background-color: ">
-                            <td>34</td>
+                            <td>35</td>
                             <td>
                                 <span class="negative"><i
-                                        class="arrow down"></i>&nbsp;-6</span>
+                                        class="arrow down"></i>&nbsp;-7</span>
                             </td>
                             <td>
                                 <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
@@ -1803,16 +1809,16 @@
                             </td>
                             
                             <td>
-                                
+                                DNF
                             </td>
                             
                             <td class="bold">73</td>
                         </tr>
                         <tr style="background-color: ">
-                            <td>36</td>
+                            <td>37</td>
                             <td>
                                 <span class="negative"><i
-                                        class="arrow down"></i>&nbsp;-2</span>
+                                        class="arrow down"></i>&nbsp;-3</span>
                             </td>
                             <td>
                                 <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
@@ -1853,52 +1859,6 @@
                             </td>
                             
                             <td class="bold">72</td>
-                        </tr>
-                        <tr style="background-color: ">
-                            <td>37</td>
-                            <td>
-                                <span class="negative"><i
-                                        class="arrow down"></i>&nbsp;-5</span>
-                            </td>
-                            <td>
-                                <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                            </td>
-                            <td class="text-left bold">Henrik Andersson</td>
-                                <td>Elit</td>
-                                    <td class="text-left">Wermland Rally Team</td>
-                                    <td>
-                                        <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
-                                    </td>
-                            
-                            <td>
-                                5
-                            </td>
-                            
-                            <td>
-                                16
-                            </td>
-                            
-                            <td>
-                                16
-                            </td>
-                            
-                            <td>
-                                8
-                            </td>
-                            
-                            <td>
-                                10
-                            </td>
-                            
-                            <td>
-                                15
-                            </td>
-                            
-                            <td>
-                                
-                            </td>
-                            
-                            <td class="bold">70</td>
                         </tr>
                         <tr style="background-color: ">
                             <td>38</td>
@@ -2032,7 +1992,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNF
                             </td>
                             
                             <td class="bold">59</td>
@@ -2124,7 +2084,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">54</td>
@@ -2317,52 +2277,6 @@
                             <td>47</td>
                             <td>
                                 <span class="positive"><i
-                                        class="arrow up"></i>&nbsp;1</span>
-                            </td>
-                            <td>
-                                <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                            </td>
-                            <td class="text-left bold">Anders Olsson</td>
-                                <td>Elit</td>
-                                    <td class="text-left">MaintMaster SRT</td>
-                                    <td>
-                                        <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
-                                    </td>
-                            
-                            <td>
-                                5
-                            </td>
-                            
-                            <td>
-                                5
-                            </td>
-                            
-                            <td>
-                                5
-                            </td>
-                            
-                            <td>
-                                5
-                            </td>
-                            
-                            <td>
-                                10
-                            </td>
-                            
-                            <td>
-                                8
-                            </td>
-                            
-                            <td>
-                                6
-                            </td>
-                            
-                            <td class="bold">44</td>
-                        </tr>
-                        <tr style="background-color: ">
-                            <td>47</td>
-                            <td>
-                                <span class="positive"><i
                                         class="arrow up"></i>&nbsp;7</span>
                             </td>
                             <td>
@@ -2406,10 +2320,55 @@
                             <td class="bold">44</td>
                         </tr>
                         <tr style="background-color: ">
-                            <td>49</td>
+                            <td>48</td>
+                            <td>
+                                <span class="neutral">=</span>
+                            </td>
+                            <td>
+                                <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                            </td>
+                            <td class="text-left bold">Anders Olsson</td>
+                                <td>Elit</td>
+                                    <td class="text-left">MaintMaster SRT</td>
+                                    <td>
+                                        <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
+                                    </td>
+                            
+                            <td>
+                                5
+                            </td>
+                            
+                            <td>
+                                5
+                            </td>
+                            
+                            <td>
+                                5
+                            </td>
+                            
+                            <td>
+                                5
+                            </td>
+                            
+                            <td>
+                                10
+                            </td>
+                            
+                            <td>
+                                8
+                            </td>
+                            
+                            <td>
+                                5
+                            </td>
+                            
+                            <td class="bold">43</td>
+                        </tr>
+                        <tr style="background-color: ">
+                            <td>48</td>
                             <td>
                                 <span class="negative"><i
-                                        class="arrow down"></i>&nbsp;-4</span>
+                                        class="arrow down"></i>&nbsp;-3</span>
                             </td>
                             <td>
                                 <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
@@ -2446,7 +2405,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">43</td>
@@ -2492,7 +2451,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">42</td>
@@ -2584,7 +2543,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">39</td>
@@ -2860,7 +2819,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">34</td>
@@ -2906,7 +2865,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">34</td>
@@ -2952,7 +2911,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">33</td>
@@ -3044,7 +3003,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">31</td>
@@ -3182,7 +3141,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">28</td>
@@ -3228,7 +3187,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">27</td>
@@ -3320,7 +3279,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">25</td>
@@ -3366,7 +3325,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">24</td>
@@ -3458,7 +3417,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">23</td>
@@ -3504,7 +3463,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">23</td>
@@ -3550,7 +3509,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">21</td>
@@ -3596,7 +3555,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">20</td>
@@ -3642,7 +3601,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">18</td>
@@ -3688,7 +3647,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">17</td>
@@ -3734,7 +3693,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">17</td>
@@ -3780,7 +3739,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">17</td>
@@ -3918,7 +3877,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">12</td>
@@ -3964,7 +3923,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">11</td>
@@ -4102,7 +4061,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">10</td>
@@ -4148,7 +4107,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">10</td>
@@ -4194,7 +4153,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">10</td>
@@ -4240,7 +4199,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">10</td>
@@ -4286,7 +4245,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">10</td>
@@ -4424,7 +4383,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">6</td>
@@ -4470,7 +4429,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">5</td>
@@ -4516,7 +4475,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">5</td>
@@ -4562,7 +4521,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">5</td>
@@ -4608,7 +4567,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">5</td>
@@ -4654,7 +4613,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">5</td>
@@ -4700,7 +4659,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">5</td>
@@ -4746,7 +4705,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">5</td>
@@ -4792,7 +4751,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">5</td>
@@ -4884,7 +4843,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">0</td>
@@ -4930,7 +4889,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">0</td>
@@ -4976,7 +4935,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">0</td>
@@ -5022,7 +4981,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">0</td>
@@ -5068,7 +5027,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">0</td>
@@ -5114,7 +5073,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">0</td>
@@ -5160,7 +5119,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">0</td>
@@ -5206,7 +5165,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">0</td>
@@ -5252,7 +5211,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">0</td>
@@ -5298,7 +5257,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">0</td>
@@ -5344,7 +5303,7 @@
                             </td>
                             
                             <td>
-                                
+                                DNS
                             </td>
                             
                             <td class="bold">0</td>
@@ -5353,7 +5312,7 @@
 
                 </table>
                 <div style="margin:0 auto; text-align:center;">
-                    <p>last updated at: 2022-09-04T19:05:06Z</p>
+                    <p>last updated at: 2022-09-05T04:58:22Z</p>
                 </div>
     </div>
         </div>
