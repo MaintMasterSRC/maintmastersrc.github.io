@@ -221,9 +221,5 @@ tbody>tr:nth-child(odd) {
 	#container {
 		margin-top: 7em;
 	}
-	
-	#flexContainer {
-		overflow-x: scroll;
-	}
 }
 
