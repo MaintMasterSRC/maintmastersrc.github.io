@@ -29,7 +29,7 @@
 
 		<h3 class="w3-hide-large navTitle bold" style="display:block;">
 			team - C
-			
+			<br><span id="countdown"></span>
 		</h3>
 
 
@@ -54,9 +54,16 @@
 				<a href="./overall-team-standings.html" class="w3-bar-item w3-button ">overall</a>
 			</div>
 		</div>
+		
 
 
 
+		<div class="w3-bar-item w3-right w3-hide-small w3-hide-medium">
+			<div class="logo">
+				<img src="./assets/country-flags/aus.png" style="max-height: 0.9em;border-radius: 0.3em;"/>
+			</div>
+			<span id="countdown2"></span>
+		</div>
 	</div>
 
 	<div id="mobileNav" class="w3-bar-block w3-black w3-hide w3-hide-large" style="overflow-y:scroll;max-height:95vh;">
@@ -94,8 +101,44 @@
 			<a href="./c-6-driver-results.html">
 				<img src="./assets/country-flags/pol.png" />
 			</a>
+			<a href="./c-7-driver-results.html">
+				<img src="./assets/country-flags/aus.png" />
+			</a>
 	</div>
 </div>
+<script>
+	// Set the date we're counting down to
+	var countDownDate = new Date("2022-09-18T21:59:00Z").getTime();
+
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+
+	// Get today's date and time
+	var now = new Date().getTime();
+
+	// Find the distance between now and the count down date
+	var distance = countDownDate - now;
+
+	// Time calculations for days, hours, minutes and seconds
+	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	// Output the result in an element with id="demo"
+	document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+	+ minutes + "m " + seconds + "s ";
+	document.getElementById("countdown2").innerHTML = days + "d " + hours + "h "
+	+ minutes + "m " + seconds + "s ";
+
+	// If the count down is over, write some text
+	if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("countdown").innerHTML = "Event Ended";
+		document.getElementById("countdown2").innerHTML = "Event Ended";
+	}
+	}, 1000);
+</script>
 
     <div id="container">
         <div id="flexContainer">
@@ -120,6 +163,7 @@
                             <th><img src="./assets/country-flags/deu.png"  alt="deu"/></th>
                             <th><img src="./assets/country-flags/scot.png"  alt="scot"/></th>
                             <th><img src="./assets/country-flags/pol.png"  alt="pol"/></th>
+                            <th><img src="./assets/country-flags/aus.png"  alt="aus"/></th>
                             <th>Points</th>
                         </tr>
                     </thead>
@@ -133,7 +177,7 @@
                                 <td class="text-left bold">M-Sport Sweden</td>
                             
                             <td>
-                                35
+                                28
                             </td>
                             
                             <td>
@@ -141,26 +185,30 @@
                             </td>
                             
                             <td>
-                                46
+                                44
                             </td>
                             
                             <td>
-                                64
+                                57
                             </td>
                             
                             <td>
-                                52
+                                47
                             </td>
                             
                             <td>
-                                48
+                                41
                             </td>
                             
                             <td>
-                                53
+                                49
                             </td>
                             
-                            <td class="bold">338</td>
+                            <td>
+                                
+                            </td>
+                            
+                            <td class="bold">306</td>
                         </tr>
                         
                         <tr>
@@ -171,15 +219,15 @@
                                 <td class="text-left bold">MaintMaster SRT</td>
                             
                             <td>
+                                40
+                            </td>
+                            
+                            <td>
                                 41
                             </td>
                             
                             <td>
-                                46
-                            </td>
-                            
-                            <td>
-                                42
+                                38
                             </td>
                             
                             <td>
@@ -187,18 +235,22 @@
                             </td>
                             
                             <td>
-                                53
+                                46
                             </td>
                             
                             <td>
-                                48
+                                45
                             </td>
                             
                             <td>
-                                40
+                                38
                             </td>
                             
-                            <td class="bold">289</td>
+                            <td>
+                                
+                            </td>
+                            
+                            <td class="bold">267</td>
                         </tr>
                         
                         <tr>
@@ -209,34 +261,38 @@
                                 <td class="text-left bold">MaintMaster SRT Open</td>
                             
                             <td>
-                                34
+                                32
                             </td>
                             
                             <td>
-                                35
+                                30
                             </td>
                             
                             <td>
-                                33
+                                30
                             </td>
                             
                             <td>
-                                25
+                                22
                             </td>
                             
                             <td>
-                                33
+                                30
                             </td>
                             
                             <td>
-                                28
+                                27
                             </td>
                             
                             <td>
-                                35
+                                30
                             </td>
                             
-                            <td class="bold">223</td>
+                            <td>
+                                
+                            </td>
+                            
+                            <td class="bold">201</td>
                         </tr>
                         
                         <tr>
@@ -267,14 +323,18 @@
                             </td>
                             
                             <td>
-                                29
+                                25
                             </td>
                             
                             <td>
                                 15
                             </td>
                             
-                            <td class="bold">72</td>
+                            <td>
+                                
+                            </td>
+                            
+                            <td class="bold">68</td>
                         </tr>
                         
                         <tr>
@@ -294,7 +354,7 @@
                             </td>
                             
                             <td>
-                                40
+                                35
                             </td>
                             
                             <td>
@@ -313,7 +373,11 @@
                                 0
                             </td>
                             
-                            <td class="bold">64</td>
+                            <td>
+                                
+                            </td>
+                            
+                            <td class="bold">59</td>
                         </tr>
                         
                         <tr>
@@ -351,6 +415,10 @@
                                 0
                             </td>
                             
+                            <td>
+                                
+                            </td>
+                            
                             <td class="bold">0</td>
                         </tr>
                         
@@ -358,7 +426,7 @@
 
                 </table>
                 <div style="margin:0 auto; text-align:center;">
-                    <p>last updated at: 2022-09-05T10:29:03Z</p>
+                    <p>last updated at: 2022-09-15T09:15:07Z</p>
                 </div>
             </div>
         </div>
