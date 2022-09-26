@@ -29,7 +29,7 @@
 
 		<h3 class="w3-hide-large navTitle bold" style="display:block;">
 			driver - overall
-			<br><span id="countdown"></span>
+			
 		</h3>
 
 
@@ -57,13 +57,6 @@
 		
 
 
-
-		<div class="w3-bar-item w3-right w3-hide-small w3-hide-medium">
-			<div class="logo">
-				<img src="./assets/country-flags/aus.png" style="max-height: 0.9em;border-radius: 0.3em;"/>
-			</div>
-			<span id="countdown2"></span>
-		</div>
 	</div>
 
 	<div id="mobileNav" class="w3-bar-block w3-black w3-hide w3-hide-large" style="overflow-y:scroll;max-height:95vh;">
@@ -106,39 +99,6 @@
 			</a>
 	</div>
 </div>
-<script>
-	// Set the date we're counting down to
-	var countDownDate = new Date("2022-09-18T21:59:00Z").getTime();
-
-	// Update the count down every 1 second
-	var x = setInterval(function() {
-
-	// Get today's date and time
-	var now = new Date().getTime();
-
-	// Find the distance between now and the count down date
-	var distance = countDownDate - now;
-
-	// Time calculations for days, hours, minutes and seconds
-	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-	// Output the result in an element with id="demo"
-	document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-	document.getElementById("countdown2").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-
-	// If the count down is over, write some text
-	if (distance < 0) {
-		clearInterval(x);
-		document.getElementById("countdown").innerHTML = "Event Ended";
-		document.getElementById("countdown2").innerHTML = "Event Ended";
-	}
-	}, 1000);
-</script>
 
 <div id="container">
     <div id="flexContainer">
@@ -1325,6 +1285,24 @@
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
+                        <td class="text-left bold">A Hillerström</td>
+                            <td>C</td>
+                                <td>
+                                    <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
+                                </td>
+                        <td>15:00.000</td>
+                        <td>+00:11:33.278</td>
+                        <td>02:00:00.000</td>
+                        <td>+01:33:21.391</td>
+                            <td></td>
+                        <td></td>
+                        <td class="bold">DNF</td>
+                    </tr>
+                    <tr>
+                        <td>66</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
                         <td class="text-left bold">Simon Sandegren</td>
                             <td>Elit</td>
                                 <td>
@@ -1339,7 +1317,7 @@
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>66</td>
+                        <td>67</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1357,7 +1335,7 @@
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>67</td>
+                        <td>68</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1375,7 +1353,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>68</td>
+                        <td>69</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1393,7 +1371,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>69</td>
+                        <td>70</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1411,7 +1389,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>70</td>
+                        <td>71</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1429,7 +1407,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>71</td>
+                        <td>72</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1447,7 +1425,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>72</td>
+                        <td>73</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1465,7 +1443,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>73</td>
+                        <td>74</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1483,7 +1461,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>74</td>
+                        <td>75</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1501,7 +1479,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>75</td>
+                        <td>76</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1519,7 +1497,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>76</td>
+                        <td>77</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1537,7 +1515,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>77</td>
+                        <td>78</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1555,7 +1533,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>78</td>
+                        <td>79</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1573,7 +1551,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>79</td>
+                        <td>80</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1591,7 +1569,7 @@
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>80</td>
+                        <td>81</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1609,7 +1587,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>81</td>
+                        <td>82</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1627,7 +1605,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>82</td>
+                        <td>83</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1645,7 +1623,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>83</td>
+                        <td>84</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1663,7 +1641,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>84</td>
+                        <td>85</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1681,7 +1659,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>85</td>
+                        <td>86</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1699,7 +1677,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>86</td>
+                        <td>87</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1717,7 +1695,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>87</td>
+                        <td>88</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1735,7 +1713,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>88</td>
+                        <td>89</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1753,7 +1731,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>89</td>
+                        <td>90</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1771,7 +1749,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>90</td>
+                        <td>91</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1789,7 +1767,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>91</td>
+                        <td>92</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1807,7 +1785,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>92</td>
+                        <td>93</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1825,7 +1803,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>93</td>
+                        <td>94</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1843,7 +1821,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>94</td>
+                        <td>95</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1861,7 +1839,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>95</td>
+                        <td>96</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1879,11 +1857,11 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>96</td>
+                        <td>97</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
-                        <td class="text-left bold">jopa</td>
+                        <td class="text-left bold">Jonas Palola</td>
                             <td>B</td>
                                 <td>
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
@@ -1897,7 +1875,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>97</td>
+                        <td>98</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1915,11 +1893,11 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>98</td>
+                        <td>99</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
-                        <td class="text-left bold">L.Nilsson</td>
+                        <td class="text-left bold">\\SWE//</td>
                             <td>B</td>
                                 <td>
                                     <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
@@ -1933,7 +1911,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>99</td>
+                        <td>100</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1951,7 +1929,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>100</td>
+                        <td>101</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1969,7 +1947,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>101</td>
+                        <td>102</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1987,7 +1965,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>102</td>
+                        <td>103</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2005,7 +1983,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>103</td>
+                        <td>104</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2023,7 +2001,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>104</td>
+                        <td>105</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2041,7 +2019,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>105</td>
+                        <td>106</td>
                         <td>
                             <img src="./assets/country-flags/gbr.png" style="max-width:1.5em; max-height:1.5em;" alt="gbr" title="gbr"/>
                         </td>
@@ -2059,7 +2037,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>106</td>
+                        <td>107</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2077,7 +2055,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>107</td>
+                        <td>108</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2095,7 +2073,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>108</td>
+                        <td>109</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2113,7 +2091,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>109</td>
+                        <td>110</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2131,187 +2109,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>110</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">PeterDanielsson</td>
-                            <td>C</td>
-                                <td>
-                                    <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold">DNS</td>
-                    </tr>
-                    <tr>
                         <td>111</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">Matti73</td>
-                            <td>C</td>
-                                <td>
-                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold">DNS</td>
-                    </tr>
-                    <tr>
-                        <td>112</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">TomasEriksson</td>
-                            <td>C</td>
-                                <td>
-                                    <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold">DNS</td>
-                    </tr>
-                    <tr>
-                        <td>113</td>
-                        <td>
-                            <img src="./assets/country-flags/fin.png" style="max-width:1.5em; max-height:1.5em;" alt="fin" title="fin"/>
-                        </td>
-                        <td class="text-left bold">Kubini</td>
-                            <td>C</td>
-                                <td>
-                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold">DNS</td>
-                    </tr>
-                    <tr>
-                        <td>114</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">biffen82</td>
-                            <td>C</td>
-                                <td>
-                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold">DNS</td>
-                    </tr>
-                    <tr>
-                        <td>115</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">RickardP</td>
-                            <td>C</td>
-                                <td>
-                                    <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold">DNS</td>
-                    </tr>
-                    <tr>
-                        <td>116</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">raybz007</td>
-                            <td>C</td>
-                                <td>
-                                    <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold">DNS</td>
-                    </tr>
-                    <tr>
-                        <td>117</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">SErnebro</td>
-                            <td>C</td>
-                                <td>
-                                    <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold">DNS</td>
-                    </tr>
-                    <tr>
-                        <td>118</td>
-                        <td>
-                            <img src="./assets/country-flags/aus.png" style="max-width:1.5em; max-height:1.5em;" alt="aus" title="aus"/>
-                        </td>
-                        <td class="text-left bold">bluefin66</td>
-                            <td>C</td>
-                                <td>
-                                    <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold">DNS</td>
-                    </tr>
-                    <tr>
-                        <td>119</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">Paul Gunnarsson</td>
-                            <td>C</td>
-                                <td>
-                                    <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold">DNS</td>
-                    </tr>
-                    <tr>
-                        <td>120</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2329,7 +2127,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>121</td>
+                        <td>112</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2347,7 +2145,25 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>122</td>
+                        <td>113</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Paul Gunnarsson</td>
+                            <td>C</td>
+                                <td>
+                                    <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
+                                </td>
+                        <td>15:00:00.000</td>
+                        <td>N/A</td>
+                        <td>23:59:59.000</td>
+                        <td>N/A</td>
+                            <td></td>
+                        <td></td>
+                        <td class="bold">DNS</td>
+                    </tr>
+                    <tr>
+                        <td>114</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2365,11 +2181,11 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>123</td>
+                        <td>115</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
-                        <td class="text-left bold">Jyrg86</td>
+                        <td class="text-left bold">Jörgen Jansson</td>
                             <td>C</td>
                                 <td>
                                     <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
@@ -2383,7 +2199,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>124</td>
+                        <td>116</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2401,7 +2217,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>125</td>
+                        <td>117</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2418,11 +2234,29 @@
                         <td></td>
                         <td class="bold">DNS</td>
                     </tr>
+                    <tr>
+                        <td>118</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Jonatan Sjösten</td>
+                            <td>C</td>
+                                <td>
+                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
+                                </td>
+                        <td>15:00:00.000</td>
+                        <td>N/A</td>
+                        <td>23:59:59.000</td>
+                        <td>N/A</td>
+                            <td></td>
+                        <td></td>
+                        <td class="bold">DNS</td>
+                    </tr>
                 </tbody>
 
             </table>
             <div style="margin:0 auto; text-align:center;">
-                <p>last updated at: 2022-09-18T20:57:22Z</p>
+                <p>last updated at: 2022-09-26T07:59:07Z</p>
             </div>
         </div>
     </div>

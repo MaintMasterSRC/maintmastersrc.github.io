@@ -29,7 +29,7 @@
 
 		<h3 class="w3-hide-large navTitle bold" style="display:block;">
 			driver - A
-			<br><span id="countdown"></span>
+			
 		</h3>
 
 
@@ -57,13 +57,6 @@
 		
 
 
-
-		<div class="w3-bar-item w3-right w3-hide-small w3-hide-medium">
-			<div class="logo">
-				<img src="./assets/country-flags/aus.png" style="max-height: 0.9em;border-radius: 0.3em;"/>
-			</div>
-			<span id="countdown2"></span>
-		</div>
 	</div>
 
 	<div id="mobileNav" class="w3-bar-block w3-black w3-hide w3-hide-large" style="overflow-y:scroll;max-height:95vh;">
@@ -106,39 +99,6 @@
 			</a>
 	</div>
 </div>
-<script>
-	// Set the date we're counting down to
-	var countDownDate = new Date("2022-09-18T21:59:00Z").getTime();
-
-	// Update the count down every 1 second
-	var x = setInterval(function() {
-
-	// Get today's date and time
-	var now = new Date().getTime();
-
-	// Find the distance between now and the count down date
-	var distance = countDownDate - now;
-
-	// Time calculations for days, hours, minutes and seconds
-	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-	// Output the result in an element with id="demo"
-	document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-	document.getElementById("countdown2").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-
-	// If the count down is over, write some text
-	if (distance < 0) {
-		clearInterval(x);
-		document.getElementById("countdown").innerHTML = "Event Ended";
-		document.getElementById("countdown2").innerHTML = "Event Ended";
-	}
-	}, 1000);
-</script>
 
 <div id="container">
     <div id="flexContainer">
@@ -161,6 +121,7 @@
                     <td>Diff</td>
                     <td>Total</td>
                     <td>Diff</td>
+                        <td>PS Points</td>
                     <td>Points</td>
                     <td>Total Points</td>
                 </tr>
@@ -175,12 +136,13 @@
                                 <td>
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
-                        <td>07:16.367</td>
+                        <td>06:53.148</td>
+                        <td>+00:00:04.289</td>
+                        <td>01:23:17.501</td>
                         <td>--</td>
-                        <td>48:26.084</td>
-                        <td>--</td>
-                        <td></td>
-                        <td class="bold"></td>
+                            <td>4</td>
+                        <td>30</td>
+                        <td class="bold">34</td>
                     </tr>
                     <tr>
                         <td>2</td>
@@ -191,28 +153,30 @@
                                 <td>
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
-                        <td>07:20.345</td>
-                        <td>+00:00:03.978</td>
-                        <td>48:49.138</td>
-                        <td>+00:00:23.054</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>06:55.942</td>
+                        <td>+00:00:07.083</td>
+                        <td>01:24:11.114</td>
+                        <td>+00:00:53.613</td>
+                            <td>3</td>
+                        <td>27</td>
+                        <td class="bold">30</td>
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
-                        <td class="text-left bold">Tommy Hamreus</td>
+                        <td class="text-left bold">Björn Wermelin</td>
                                 <td>
-                                    <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
+                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
-                        <td>07:27.381</td>
-                        <td>+00:00:11.014</td>
-                        <td>49:06.027</td>
-                        <td>+00:00:39.943</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>06:48.859</td>
+                        <td>--</td>
+                        <td>01:24:19.566</td>
+                        <td>+00:01:02.065</td>
+                            <td>5</td>
+                        <td>25</td>
+                        <td class="bold">30</td>
                     </tr>
                     <tr>
                         <td>4</td>
@@ -223,12 +187,13 @@
                                 <td>
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
-                        <td>07:24.193</td>
-                        <td>+00:00:07.826</td>
-                        <td>49:21.457</td>
-                        <td>+00:00:55.373</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>07:00.344</td>
+                        <td>+00:00:11.485</td>
+                        <td>01:25:02.949</td>
+                        <td>+00:01:45.448</td>
+                            <td>2</td>
+                        <td>24</td>
+                        <td class="bold">26</td>
                     </tr>
                     <tr>
                         <td>5</td>
@@ -239,47 +204,16 @@
                                 <td>
                                     <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
                                 </td>
-                        <td>07:32.038</td>
-                        <td>+00:00:15.671</td>
-                        <td>49:40.191</td>
-                        <td>+00:01:14.107</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>07:42.455</td>
+                        <td>+00:00:53.596</td>
+                        <td>01:26:36.323</td>
+                        <td>+00:03:18.822</td>
+                            <td></td>
+                        <td>23</td>
+                        <td class="bold">23</td>
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">Björn Wermelin</td>
-                                <td>
-                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
-                                </td>
-                        <td>08:03.619</td>
-                        <td>+00:00:47.252</td>
-                        <td>49:43.028</td>
-                        <td>+00:01:16.944</td>
-                        <td></td>
-                        <td class="bold"></td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">Ludvig Gabrielsson</td>
-                                <td>
-                                    <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
-                                </td>
-                        <td>07:32.022</td>
-                        <td>+00:00:15.655</td>
-                        <td>50:13.562</td>
-                        <td>+00:01:47.478</td>
-                        <td></td>
-                        <td class="bold"></td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -287,15 +221,16 @@
                                 <td>
                                     <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
                                 </td>
-                        <td>07:38.935</td>
-                        <td>+00:00:22.568</td>
-                        <td>50:50.822</td>
-                        <td>+00:02:24.738</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>07:23.871</td>
+                        <td>+00:00:35.012</td>
+                        <td>01:28:14.793</td>
+                        <td>+00:04:57.292</td>
+                            <td></td>
+                        <td>21</td>
+                        <td class="bold">21</td>
                     </tr>
                     <tr>
-                        <td>9</td>
+                        <td>7</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -303,15 +238,16 @@
                                 <td>
                                     <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
                                 </td>
-                        <td>08:21.487</td>
-                        <td>+00:01:05.120</td>
-                        <td>51:12.100</td>
-                        <td>+00:02:46.016</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>07:25.875</td>
+                        <td>+00:00:37.016</td>
+                        <td>01:28:34.139</td>
+                        <td>+00:05:16.638</td>
+                            <td></td>
+                        <td>19</td>
+                        <td class="bold">19</td>
                     </tr>
                     <tr>
-                        <td>10</td>
+                        <td>8</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -319,31 +255,16 @@
                                 <td>
                                     <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
                                 </td>
-                        <td>07:45.671</td>
-                        <td>+00:00:29.304</td>
-                        <td>51:42.250</td>
-                        <td>+00:03:16.166</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>07:20.060</td>
+                        <td>+00:00:31.201</td>
+                        <td>01:28:43.640</td>
+                        <td>+00:05:26.139</td>
+                            <td></td>
+                        <td>17</td>
+                        <td class="bold">17</td>
                     </tr>
                     <tr>
-                        <td>11</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">Andreas Dahlin</td>
-                                <td>
-                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
-                                </td>
-                        <td>07:58.487</td>
-                        <td>+00:00:42.120</td>
-                        <td>51:44.163</td>
-                        <td>+00:03:18.079</td>
-                        <td></td>
-                        <td class="bold"></td>
-                    </tr>
-                    <tr>
-                        <td>12</td>
+                        <td>9</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -351,31 +272,16 @@
                                 <td>
                                     <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
                                 </td>
-                        <td>07:44.320</td>
-                        <td>+00:00:27.953</td>
-                        <td>51:49.400</td>
-                        <td>+00:03:23.316</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>07:44.860</td>
+                        <td>+00:00:56.001</td>
+                        <td>01:29:49.210</td>
+                        <td>+00:06:31.709</td>
+                            <td></td>
+                        <td>15</td>
+                        <td class="bold">15</td>
                     </tr>
                     <tr>
-                        <td>13</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">Daniel Dyrenius</td>
-                                <td>
-                                    <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
-                                </td>
-                        <td>07:38.913</td>
-                        <td>+00:00:22.546</td>
-                        <td>53:09.235</td>
-                        <td>+00:04:43.151</td>
-                        <td></td>
-                        <td class="bold"></td>
-                    </tr>
-                    <tr>
-                        <td>14</td>
+                        <td>10</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -383,15 +289,50 @@
                                 <td>
                                     <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
                                 </td>
+                        <td>00:08:02.983</td>
+                        <td>+00:01:14.124</td>
+                        <td>01:30:44.441</td>
+                        <td>+00:07:26.940</td>
+                            <td></td>
+                        <td>13</td>
+                        <td class="bold">13</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Daniel Dyrenius</td>
+                                <td>
+                                    <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
+                                </td>
+                        <td>07:18.892</td>
+                        <td>+00:00:30.033</td>
+                        <td>01:31:23.113</td>
+                        <td>+00:08:05.612</td>
+                            <td>1</td>
+                        <td>10</td>
+                        <td class="bold">11</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Andreas Dahlin</td>
+                                <td>
+                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
+                                </td>
                         <td>30:00.000</td>
-                        <td>+00:22:43.633</td>
-                        <td>01:11:56.399</td>
-                        <td>+00:23:30.315</td>
+                        <td>+00:23:11.141</td>
+                        <td>02:37:06.268</td>
+                        <td>+01:13:48.767</td>
+                            <td></td>
                         <td></td>
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>15</td>
+                        <td>13</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -400,14 +341,15 @@
                                     <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
                                 </td>
                         <td>30:00.000</td>
-                        <td>+00:22:43.633</td>
-                        <td>01:54:27.918</td>
-                        <td>+01:06:01.834</td>
+                        <td>+00:23:11.141</td>
+                        <td>03:43:58.627</td>
+                        <td>+02:20:41.126</td>
+                            <td></td>
                         <td></td>
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>16</td>
+                        <td>14</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -416,30 +358,15 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>30:00.000</td>
-                        <td>+00:22:43.633</td>
-                        <td>02:12:23.294</td>
-                        <td>+01:23:57.210</td>
+                        <td>+00:23:11.141</td>
+                        <td>04:00:56.998</td>
+                        <td>+02:37:39.497</td>
+                            <td></td>
                         <td></td>
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>17</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">Jocke Gabrielsson</td>
-                                <td>
-                                    <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
-                                </td>
-                        <td>30:00.000</td>
-                        <td>+00:22:43.633</td>
-                        <td>03:30:00.000</td>
-                        <td>+02:41:33.916</td>
-                        <td></td>
-                        <td class="bold">DNF</td>
-                    </tr>
-                    <tr>
-                        <td>18</td>
+                        <td>15</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -448,14 +375,15 @@
                                     <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
                                 </td>
                         <td>30:00.000</td>
-                        <td>+00:22:43.633</td>
-                        <td>03:30:00.000</td>
-                        <td>+02:41:33.916</td>
+                        <td>+00:23:11.141</td>
+                        <td>06:00:00.000</td>
+                        <td>+04:36:42.499</td>
+                            <td></td>
                         <td></td>
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>19</td>
+                        <td>16</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -467,11 +395,12 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>20</td>
+                        <td>17</td>
                         <td>
                             <img src="./assets/country-flags/nor.png" style="max-width:1.5em; max-height:1.5em;" alt="nor" title="nor"/>
                         </td>
@@ -483,11 +412,12 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>21</td>
+                        <td>18</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -499,11 +429,12 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>22</td>
+                        <td>19</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -515,11 +446,12 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>23</td>
+                        <td>20</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -531,11 +463,12 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>24</td>
+                        <td>21</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -547,11 +480,12 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>25</td>
+                        <td>22</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -563,11 +497,29 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>26</td>
+                        <td>23</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Ludvig Gabrielsson</td>
+                                <td>
+                                    <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
+                                </td>
+                        <td>15:00:00.000</td>
+                        <td>N/A</td>
+                        <td>23:59:59.000</td>
+                        <td>N/A</td>
+                            <td></td>
+                        <td></td>
+                        <td class="bold">DNF</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -579,11 +531,12 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>27</td>
+                        <td>25</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -595,11 +548,12 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>28</td>
+                        <td>26</td>
                         <td>
                             <img src="./assets/country-flags/nor.png" style="max-width:1.5em; max-height:1.5em;" alt="nor" title="nor"/>
                         </td>
@@ -611,11 +565,12 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>29</td>
+                        <td>27</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -627,11 +582,12 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>30</td>
+                        <td>28</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -643,11 +599,29 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>31</td>
+                        <td>29</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Tommy Hamreus</td>
+                                <td>
+                                    <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
+                                </td>
+                        <td>15:00:00.000</td>
+                        <td>N/A</td>
+                        <td>23:59:59.000</td>
+                        <td>N/A</td>
+                            <td></td>
+                        <td></td>
+                        <td class="bold">DNF</td>
+                    </tr>
+                    <tr>
+                        <td>30</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -659,11 +633,12 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>32</td>
+                        <td>31</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -675,11 +650,12 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>33</td>
+                        <td>32</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -691,14 +667,32 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
+                    </tr>
+                    <tr>
+                        <td>33</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Jocke Gabrielsson</td>
+                                <td>
+                                    <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
+                                </td>
+                        <td>15:00:00.000</td>
+                        <td>N/A</td>
+                        <td>23:59:59.000</td>
+                        <td>N/A</td>
+                            <td></td>
+                        <td></td>
+                        <td class="bold">DNF</td>
                     </tr>
                 </tbody>
 
             </table>
             <div style="margin:0 auto; text-align:center;">
-                <p>last updated at: 2022-09-18T20:57:21Z</p>
+                <p>last updated at: 2022-09-26T07:59:07Z</p>
             </div>
         </div>
     </div>

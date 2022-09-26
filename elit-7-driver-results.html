@@ -29,7 +29,7 @@
 
 		<h3 class="w3-hide-large navTitle bold" style="display:block;">
 			driver - Elit
-			<br><span id="countdown"></span>
+			
 		</h3>
 
 
@@ -57,13 +57,6 @@
 		
 
 
-
-		<div class="w3-bar-item w3-right w3-hide-small w3-hide-medium">
-			<div class="logo">
-				<img src="./assets/country-flags/aus.png" style="max-height: 0.9em;border-radius: 0.3em;"/>
-			</div>
-			<span id="countdown2"></span>
-		</div>
 	</div>
 
 	<div id="mobileNav" class="w3-bar-block w3-black w3-hide w3-hide-large" style="overflow-y:scroll;max-height:95vh;">
@@ -106,39 +99,6 @@
 			</a>
 	</div>
 </div>
-<script>
-	// Set the date we're counting down to
-	var countDownDate = new Date("2022-09-18T21:59:00Z").getTime();
-
-	// Update the count down every 1 second
-	var x = setInterval(function() {
-
-	// Get today's date and time
-	var now = new Date().getTime();
-
-	// Find the distance between now and the count down date
-	var distance = countDownDate - now;
-
-	// Time calculations for days, hours, minutes and seconds
-	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-	// Output the result in an element with id="demo"
-	document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-	document.getElementById("countdown2").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-
-	// If the count down is over, write some text
-	if (distance < 0) {
-		clearInterval(x);
-		document.getElementById("countdown").innerHTML = "Event Ended";
-		document.getElementById("countdown2").innerHTML = "Event Ended";
-	}
-	}, 1000);
-</script>
 
 <div id="container">
     <div id="flexContainer">
@@ -161,6 +121,7 @@
                     <td>Diff</td>
                     <td>Total</td>
                     <td>Diff</td>
+                        <td>PS Points</td>
                     <td>Points</td>
                     <td>Total Points</td>
                 </tr>
@@ -175,12 +136,13 @@
                                 <td>
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
-                        <td>07:32.028</td>
-                        <td>+00:00:15.714</td>
-                        <td>47:59.538</td>
+                        <td>06:51.728</td>
+                        <td>+00:00:02.991</td>
+                        <td>01:22:59.550</td>
                         <td>--</td>
-                        <td></td>
-                        <td class="bold"></td>
+                            <td>4</td>
+                        <td>15</td>
+                        <td class="bold">19</td>
                     </tr>
                     <tr>
                         <td>2</td>
@@ -191,12 +153,13 @@
                                 <td>
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
-                        <td>07:16.314</td>
-                        <td>--</td>
-                        <td>48:03.506</td>
-                        <td>+00:00:03.968</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>06:52.765</td>
+                        <td>+00:00:04.028</td>
+                        <td>01:23:05.883</td>
+                        <td>+00:00:06.333</td>
+                            <td>3</td>
+                        <td>13</td>
+                        <td class="bold">16</td>
                     </tr>
                     <tr>
                         <td>3</td>
@@ -207,12 +170,13 @@
                                 <td>
                                     <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
                                 </td>
-                        <td>07:22.502</td>
-                        <td>+00:00:06.188</td>
-                        <td>48:44.116</td>
-                        <td>+00:00:44.578</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>06:54.680</td>
+                        <td>+00:00:05.943</td>
+                        <td>01:23:35.648</td>
+                        <td>+00:00:36.098</td>
+                            <td>2</td>
+                        <td>11</td>
+                        <td class="bold">13</td>
                     </tr>
                     <tr>
                         <td>4</td>
@@ -223,28 +187,30 @@
                                 <td>
                                     <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
                                 </td>
-                        <td>07:22.101</td>
-                        <td>+00:00:05.787</td>
-                        <td>49:01.202</td>
-                        <td>+00:01:01.664</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>06:48.737</td>
+                        <td>--</td>
+                        <td>01:23:54.168</td>
+                        <td>+00:00:54.618</td>
+                            <td>5</td>
+                        <td>9</td>
+                        <td class="bold">14</td>
                     </tr>
                     <tr>
                         <td>5</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
-                        <td class="text-left bold">Tomas Nordins</td>
+                        <td class="text-left bold">Anders Olsson</td>
                                 <td>
                                     <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
                                 </td>
-                        <td>07:26.720</td>
-                        <td>+00:00:10.406</td>
-                        <td>49:21.640</td>
-                        <td>+00:01:22.102</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>07:06.949</td>
+                        <td>+00:00:18.212</td>
+                        <td>01:26:08.713</td>
+                        <td>+00:03:09.163</td>
+                            <td>1</td>
+                        <td>7</td>
+                        <td class="bold">8</td>
                     </tr>
                     <tr>
                         <td>6</td>
@@ -255,63 +221,33 @@
                                 <td>
                                     <img src="./assets/cars/skoda.png" style="max-width:2em; max-height:2em;" alt="skoda" title="skoda"/>
                                 </td>
-                        <td>07:19.563</td>
-                        <td>+00:00:03.249</td>
-                        <td>49:51.969</td>
-                        <td>+00:01:52.431</td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td>09:44.566</td>
+                        <td>+00:02:55.829</td>
+                        <td>01:28:31.656</td>
+                        <td>+00:05:32.106</td>
+                            <td></td>
+                        <td>6</td>
+                        <td class="bold">6</td>
                     </tr>
                     <tr>
                         <td>7</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
-                        <td class="text-left bold">Anders Olsson</td>
+                        <td class="text-left bold">Tomas Nordins</td>
                                 <td>
                                     <img src="./assets/cars/subaru.png" style="max-width:2em; max-height:2em;" alt="subaru" title="subaru"/>
                                 </td>
-                        <td>07:52.607</td>
-                        <td>+00:00:36.293</td>
-                        <td>50:22.390</td>
-                        <td>+00:02:22.852</td>
+                        <td>30:00.000</td>
+                        <td>+00:23:11.263</td>
+                        <td>02:47:16.013</td>
+                        <td>+01:24:16.463</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNF</td>
                     </tr>
                     <tr>
                         <td>8</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">Jimmy Norr Kambrink</td>
-                                <td>
-                                    <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
-                                </td>
-                        <td>30:00.000</td>
-                        <td>+00:22:43.686</td>
-                        <td>02:55:30.826</td>
-                        <td>+02:07:31.288</td>
-                        <td></td>
-                        <td class="bold">DNF</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">Tommie Lindberg</td>
-                                <td>
-                                    <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
-                                </td>
-                        <td>30:00.000</td>
-                        <td>+00:22:43.686</td>
-                        <td>02:57:48.955</td>
-                        <td>+02:09:49.417</td>
-                        <td></td>
-                        <td class="bold">DNF</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -323,14 +259,49 @@
                         <td>N/A</td>
                         <td>23:59:59.000</td>
                         <td>N/A</td>
+                            <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Jimmy Norr Kambrink</td>
+                                <td>
+                                    <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
+                                </td>
+                        <td>15:00:00.000</td>
+                        <td>N/A</td>
+                        <td>23:59:59.000</td>
+                        <td>N/A</td>
+                            <td></td>
+                        <td></td>
+                        <td class="bold">DNF</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Tommie Lindberg</td>
+                                <td>
+                                    <img src="./assets/cars/citroen.png" style="max-width:2em; max-height:2em;" alt="citroen" title="citroen"/>
+                                </td>
+                        <td>15:00:00.000</td>
+                        <td>N/A</td>
+                        <td>23:59:59.000</td>
+                        <td>N/A</td>
+                            <td></td>
+                        <td></td>
+                        <td class="bold">DNF</td>
                     </tr>
                 </tbody>
 
             </table>
             <div style="margin:0 auto; text-align:center;">
-                <p>last updated at: 2022-09-18T20:57:21Z</p>
+                <p>last updated at: 2022-09-26T07:59:07Z</p>
             </div>
         </div>
     </div>
