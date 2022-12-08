@@ -23,11 +23,11 @@
                 <img src="./assets/maintmaster.png">
             </a>
             <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-hide-small w3-hide-medium">
-                <span class="w3-bar-item">---series---</span>
+                <span class="w3-bar-item">---serier---</span>
                     <a href="/enhetscupen" class="w3-bar-item w3-button ">Enhetscupen</a>
                     <a href="/supercupen" class="w3-bar-item w3-button ">Supercupen</a>
                     <a href="/supportserien" class="w3-bar-item w3-button ">Supportserien</a>
-                <span class="w3-bar-item">---historical---</span>
+                <span class="w3-bar-item">---historisk---</span>
                     <a href="/season5" class="w3-bar-item w3-button ">MaintMaster s5</a>
                     <a href="/season5/enhetscupen" class="w3-bar-item w3-button ">Enhetscupen s5</a>
                     <a href="/season5/supercupen" class="w3-bar-item w3-button ">Supercupen s5</a>
@@ -1203,7 +1203,10 @@
                                 </td>
                         <td>07:28.891</td>
                         <td>+00:01:14.011</td>
-                        <td>42:53.964</td>
+                        <td class="popup" onclick="openPopup('TGR_Tirwyn')">
+                            42:53.964
+                            <span class="popuptext" id="TGR_Tirwyn">Manuellt resultat tillämpat</span>
+                        </td>
                         <td>+00:06:34.392</td>
                             <td></td>
                         <td>9</td>
@@ -1329,7 +1332,10 @@
                                 </td>
                         <td>07:03.866</td>
                         <td>+00:00:48.986</td>
-                        <td>42:42.303</td>
+                        <td class="popup" onclick="openPopup('Sledge')">
+                            42:42.303
+                            <span class="popuptext" id="Sledge">Manuellt resultat tillämpat</span>
+                        </td>
                         <td>+00:06:22.731</td>
                             <td></td>
                         <td>5</td>
@@ -2033,6 +2039,27 @@
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
+                        <td class="text-left bold">Robban Borgström</td>
+                            <td>A</td>
+                                <td>
+                                    <img src="./assets/teams/privateer.png" style="max-width:2em; max-height:2em;" alt="privateer" title="privateer"/>
+                                </td>
+                                <td>
+                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
+                                </td>
+                        <td>15:00:00.000</td>
+                        <td>N/A</td>
+                        <td>23:59:59.000</td>
+                        <td>N/A</td>
+                            <td></td>
+                        <td></td>
+                        <td class="bold">DNS</td>
+                    </tr>
+                    <tr>
+                        <td>92</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
                         <td class="text-left bold">Pierre Andersson</td>
                             <td>B</td>
                                 <td>
@@ -2050,7 +2077,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>92</td>
+                        <td>93</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2071,7 +2098,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>93</td>
+                        <td>94</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2092,7 +2119,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>94</td>
+                        <td>95</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2113,7 +2140,7 @@
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>95</td>
+                        <td>96</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2134,7 +2161,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>96</td>
+                        <td>97</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2155,7 +2182,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>97</td>
+                        <td>98</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2176,7 +2203,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>98</td>
+                        <td>99</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2197,7 +2224,7 @@
                         <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>99</td>
+                        <td>100</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -2221,7 +2248,7 @@
 
             </table>
             <div style="margin:0 auto; text-align:center;">
-                <p>Senast uppdaterad vid: 2022-12-07T10:12:23Z</p>
+                <p>Senast uppdaterad vid: 2022-12-08T06:37:31Z</p>
             </div>
         </div>
     </div>
@@ -2247,6 +2274,11 @@
         } else {
             closeNav(navId);
         }
+    }
+    // When the user clicks on div, open the popup
+    function openPopup(id) {
+      var popup = document.getElementById(id);
+      popup.classList.toggle("show");
     }
 </script>
 

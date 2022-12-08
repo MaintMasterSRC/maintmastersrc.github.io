@@ -23,11 +23,11 @@
                 <img src="./assets/maintmaster.png">
             </a>
             <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-hide-small w3-hide-medium">
-                <span class="w3-bar-item">---series---</span>
+                <span class="w3-bar-item">---serier---</span>
                     <a href="/enhetscupen" class="w3-bar-item w3-button ">Enhetscupen</a>
                     <a href="/supercupen" class="w3-bar-item w3-button ">Supercupen</a>
                     <a href="/supportserien" class="w3-bar-item w3-button ">Supportserien</a>
-                <span class="w3-bar-item">---historical---</span>
+                <span class="w3-bar-item">---historisk---</span>
                     <a href="/season5" class="w3-bar-item w3-button ">MaintMaster s5</a>
                     <a href="/season5/enhetscupen" class="w3-bar-item w3-button ">Enhetscupen s5</a>
                     <a href="/season5/supercupen" class="w3-bar-item w3-button ">Supercupen s5</a>
@@ -491,7 +491,10 @@
                                 </td>
                         <td>06:51.397</td>
                         <td>+00:00:14.983</td>
-                        <td>43:13.427</td>
+                        <td class="popup" onclick="openPopup('asplund')">
+                            43:13.427
+                            <span class="popuptext" id="asplund">Manuellt resultat tillämpat</span>
+                        </td>
                         <td>+00:03:13.151</td>
                             <td></td>
                         <td>5</td>
@@ -511,7 +514,10 @@
                                 </td>
                         <td>07:33.034</td>
                         <td>+00:00:56.620</td>
-                        <td>48:40.657</td>
+                        <td class="popup" onclick="openPopup('Dalle')">
+                            48:40.657
+                            <span class="popuptext" id="Dalle">Manuellt resultat tillämpat</span>
+                        </td>
                         <td>+00:08:40.381</td>
                             <td></td>
                         <td>5</td>
@@ -671,7 +677,10 @@
                                 </td>
                         <td>30:00.000</td>
                         <td>+00:23:23.586</td>
-                        <td>03:00:00.000</td>
+                        <td class="popup" onclick="openPopup('L Backlund')">
+                            03:00:00.000
+                            <span class="popuptext" id="L Backlund">Manuellt resultat tillämpat</span>
+                        </td>
                         <td>+02:19:59.724</td>
                             <td></td>
                         <td>5</td>
@@ -761,7 +770,7 @@
 
             </table>
             <div style="margin:0 auto; text-align:center;">
-                <p>Senast uppdaterad vid: 2022-12-07T10:12:23Z</p>
+                <p>Senast uppdaterad vid: 2022-12-08T06:37:31Z</p>
             </div>
         </div>
     </div>
@@ -787,6 +796,11 @@
         } else {
             closeNav(navId);
         }
+    }
+    // When the user clicks on div, open the popup
+    function openPopup(id) {
+      var popup = document.getElementById(id);
+      popup.classList.toggle("show");
     }
 </script>
 
