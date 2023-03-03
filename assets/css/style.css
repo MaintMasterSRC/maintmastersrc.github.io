@@ -199,7 +199,7 @@ tbody>tr:nth-child(odd) {
 }
 
 .active {
-	background: #5355bf !important;
+	background: #ced60f !important;
 	color: white !important;
 }
 
