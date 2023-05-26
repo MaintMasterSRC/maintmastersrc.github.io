@@ -101,6 +101,9 @@ td {
 	padding: 0.5em;
 	text-align: center;
 }
+td:nth-child(4){
+	padding-right: 3em;
+}
 
 th>img {
 	max-height: 1.5em;
