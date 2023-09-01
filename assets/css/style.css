@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Josefin Sans';
-	src: url('../assets/fonts/JosefinSans.ttf') format("truetype-variations");
+	src: url('../fonts/JosefinSans.ttf') format("truetype-variations");
   }
   @font-face {
 	font-family: 'Montserrat';
-	src: url('../assets/fonts/Montserrat.ttf') format("truetype-variations");
+	src: url('../fonts/Montserrat.ttf') format("truetype-variations");
   }
 
 
