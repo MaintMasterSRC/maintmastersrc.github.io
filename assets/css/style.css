@@ -265,7 +265,7 @@ tbody>tr:nth-child(odd) {
 #seriesMobileNav>span,
 #seriesMobileNav>a {
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.1em;
 	padding: 0.5em 0;
 }
 
@@ -290,7 +290,6 @@ tbody>tr:nth-child(odd) {
 	}
 
 	.w3-top {
-
 	}
 
 	.w3-card-4 {
