@@ -7,6 +7,9 @@
 	src: url('../fonts/Montserrat.ttf') format("truetype-variations");
   }
 
+  *, *:before, *:after {
+	box-sizing: border-box;
+  }
 
 body {
 	margin: 0;
@@ -53,7 +56,7 @@ h2 {
 .w3-dropdown-hover:hover > .w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{background-color:rgba(0,155,158,1);color:#fff}
 
 #container {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	padding: 4em;
 	margin-top: 4em;
@@ -72,6 +75,10 @@ h2 {
 	padding-bottom: 30px;
 }
 
+.flexbox {
+	margin:5px;
+}
+
 .background {
 	position: absolute;
 	display: block;
@@ -82,6 +89,7 @@ h2 {
 
 .flex {
 	display: flex;
+	gap: 20px;
 }
 
 #particles-js {
@@ -278,15 +286,63 @@ tbody>tr:nth-child(odd) {
 @media only screen and (max-width: 992px) {
 	.w3-bar .logo img {
 		max-height: 4em;
-		margin: 0.5em;
+		margin: 0;
+	}
+
+	.w3-top {
+
+	}
+
+	.w3-card-4 {
+		margin-bottom: 15px;
 	}
 
 	.secondaryNav>a>img {
 		max-height: 3em;
 	}
 
+	.flexBox {
+	}
+
+	.flex {
+		gap: 5px;	
+	}
+
+	.button-box {
+		justify-content: space-between;
+	}
+
+	.mm-button{
+		padding: 10px 30px;
+	}
+
+
+	#flexContainer {
+		display: block;
+		width: 100%;
+		margin-top: 40px;
+	}
+
 	#container {
-		margin-top: 7em;
+		width: 100%;
+		display: block;
+		padding: 20px;
+	}
+
+	.w3-container {
+		width: 100%;
+		display: inline-block;
+		word-wrap: break-word;
+		padding: 15px;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	h1, h2, h3 {
+		font-size: 20px;
+		line-height: 1.7em;
 	}
 }
 
