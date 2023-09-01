@@ -50,6 +50,8 @@ h2 {
 	margin-bottom: 10px;
 }
 
+.w3-dropdown-hover:hover > .w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{background-color:rgba(0,155,158,1);color:#fff}
+
 #container {
 	width: 90%;
 	margin: auto;
